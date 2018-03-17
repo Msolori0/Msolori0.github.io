@@ -62,7 +62,7 @@ a:hover {
     height: 600px;
     clear: both;
     background-color: white;
-    padding: 95px;
+    padding: 150px;
     margin:auto;
     line-height: 40px;
 }
@@ -102,16 +102,89 @@ form {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.portimage {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    
-}
 
 p1 {
     background-color: #4aaaa5;
     padding: 50px;
-    
+}
 
+
+#portimage1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 80px;
+}
+
+#portimage2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 80px;
+}
+
+#portimage3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 80px;
+}
+
+#portimage4 {
+    width:200px;
+    height: 200px;
+    float:left;
+    margin: 80px;
+}
+
+#portimage5 {
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin: 80px;
+
+}
+
+#title1 {
+    position: absolute;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+    bottom:130px;
+    width: 180px;
+    left: 609px;
+    padding:10px;
+}
+
+#title2 {
+    position: absolute;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+    bottom:130px;
+    width: 180px;
+    left: 249px;
+    padding:10px;
+}
+
+#title3 {
+    position: absolute;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+    bottom:479px;
+    width: 180px;
+    left: 249px;
+    padding:10px;
+}
+
+#title4 {
+    position: absolute;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+    bottom:479px;
+    width: 180px;
+    left: 609px;
+    padding:10px;
 }
