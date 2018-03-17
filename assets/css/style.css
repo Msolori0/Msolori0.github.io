@@ -59,10 +59,10 @@ a:hover {
 
 .maincontent {
     width: 75%;
-    height: 600px;
+    height: 700px;
     clear: both;
     background-color: white;
-    padding: 150px;
+    padding: 100px;
     margin:auto;
     line-height: 40px;
 }
