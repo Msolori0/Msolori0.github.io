@@ -3,15 +3,19 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/realback.png");
+  background-image: cover;
+  /* background-repeat: no-repeat; */
 }
 
-.image-source{
+.image-source {
   text-decoration: none;
 }
 
-.psy, .RPG, .Trivia {
-height: 205px
+.psy,
+.RPG,
+.Trivia {
+  height: 205px;
 }
 
 * {
@@ -118,7 +122,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -134,7 +139,7 @@ h3, h2 {
 
 .main-section {
   float: left;
-  width: 100%;
+  /* width: 100%; */
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
@@ -184,7 +189,6 @@ h3, h2 {
   margin-right: 25px;
 }
 
-
 .sidebar {
   background: #fff;
   padding: 30px;
@@ -192,19 +196,20 @@ h3, h2 {
   max-width: 270px;
   float: right;
   border: 1px solid #ddd;
-  margin-bottom: 20px
-
+  margin-bottom: 20px;
 }
 
-h3, .sidebar, h2 {
+h3,
+.sidebar,
+h2 {
   border-bottom: 2px solid #eeee;
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
 }
 
-.social{
-  width:62px;
+.social {
+  width: 62px;
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
@@ -223,15 +228,15 @@ h3, .sidebar, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -240,10 +245,10 @@ textarea {
 }
 
 textarea {
-  height: 200px
+  height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
@@ -252,125 +257,110 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-@media screen and (max-width:980px) and (min-width:769px) { 
-
-nav{
-  padding-right: 116px;
-}
-
-#masthead{
-  position:static;
-}
-
-#main-container{
-  padding-top: 8px;
-  margin-left: 116px
-}
-
-#logo {
-  margin-left: 116px
-}
-
-.main-section{
-  width: 420px
-}
-
-.sidebar {
-  float:left;
-  margin-left: 38px
-}
-
-.work{
-  width: 100%
-
-}
-
-}
-
-@media screen and (max-width:768px) and (min-width:641px)
-{
-
-  #masthead{
-    position: static;
-
-  }
-  #logo, .container{
-    padding-left: 20px;
-
+@media screen and (max-width: 980px) and (min-width: 769px) {
+  nav {
+    padding-right: 116px;
   }
 
-.sidebar{
-  float: left;
-  max-width: 97.5%
-}
-
-nav {
-  padding-right: 20px;
-}
-
-
-.main-section{
-  max-width: 97.5%;
-}
-  
-#main-container {
-  padding-top: 8px
-}
-
-.work{ 
-  width: 46%;
-}
-}
-
-@media screen and (max-width:640px) {
   #masthead {
-    position:static;
-  ;
+    position: static;
   }
 
-  .container{
+  #main-container {
+    padding-top: 8px;
+    margin-left: 116px;
+  }
+
+  #logo {
+    margin-left: 116px;
+  }
+
+  .main-section {
+    width: 420px;
+  }
+
+  .sidebar {
+    float: left;
+    margin-left: 38px;
+  }
+
+  .work {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+  #masthead {
+    position: static;
+  }
+  #logo,
+  .container {
+    padding-left: 20px;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 97.5%;
+  }
+
+  nav {
+    padding-right: 20px;
+  }
+
+  .main-section {
+    max-width: 97.5%;
+  }
+
+  #main-container {
+    padding-top: 8px;
+  }
+
+  .work {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+
+  .container {
     width: 100%;
   }
 
-  #logo{
-    width:100%;
-    
+  #logo {
+    width: 100%;
   }
 
-  .auth-image{
-    width:100%;
+  .auth-image {
+    width: 100%;
     min-width: 220px;
-    clear:both;
-    
+    clear: both;
   }
 
-  #main-container{
-  padding-top: 8px;
-  width: 570px;
-  margin: 10px auto;
-
-
+  #main-container {
+    padding-top: 8px;
+    width: 570px;
+    margin: 10px auto;
   }
 
-  .sidebar{ 
-    float:left;
+  .sidebar {
+    float: left;
     width: 100%;
     text-align: center;
-    max-width: 100%
+    max-width: 100%;
   }
 
   nav {
     float: left;
     width: 100%;
     text-align: center;
-    word-spacing: 60px; 
-    line-height: 50px 
-    }
+    word-spacing: 60px;
+    line-height: 50px;
+  }
 
-.work{
-  width: 100%;
-
-}
-
+  .work {
+    width: 100%;
+  }
 }
